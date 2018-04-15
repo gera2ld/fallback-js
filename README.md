@@ -1,9 +1,8 @@
-fallback-js
+@gera2ld/fallback-js
 ---
 
 ![NPM](https://img.shields.io/npm/v/@gera2ld/fallback-js.svg)
 ![License](https://img.shields.io/npm/l/@gera2ld/fallback-js.svg)
-![Downloads](https://img.shields.io/npm/dt/@gera2ld/fallback-js.svg)
 
 Set up fallback messages easily when browser fails running essential scripts.
 
@@ -26,7 +25,7 @@ With this script you can easily set up a notice when essential scripts fail.
      <p>Unfortunately, your browser is too old to work for this application. Please upgrade your browser.</p>
    </div>
    <!-- Run fallback-js first -->
-   <script src="fallback-js.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@gera2ld/fallback-js"></script>
 
    <!-- Run your main script after -->
    <script src="app.js"></script>
@@ -53,7 +52,7 @@ Configurations can be overridden by assigning to `window._fallbackJs` before run
     console.error(errors);
   },
 };</script>
-<script src="fallback-js.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@gera2ld/fallback-js"></script>
 ```
 
 Available configurations are:
