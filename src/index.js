@@ -60,7 +60,7 @@ function warnObsolete() {
   const el = $(options.selector);
   if (el) {
     el.style.display = '';
-    ['hide'].forEach(key => {
+    ['hide'].forEach((key) => {
       let value = el.getAttribute(`data-${key}`);
       if (value) {
         try {
